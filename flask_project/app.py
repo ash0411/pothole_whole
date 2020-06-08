@@ -17,7 +17,11 @@ def index():
         if uploaded_file.filename != '':
             image_path = os.path.join('static',uploaded_file.filename)
             uploaded_file.save(image_path)
-            class_name = inference.get_prediction(image_path)
+            pred = inference.get_prediction(image_path)
+            if pred == 0:
+                class_name = "normal"
+            else:
+                class_name = "pothole detected"
             #print("CLASS name =",class_name)
             result = {
                 'class_name' :class_name,
