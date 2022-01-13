@@ -1,0 +1,9 @@
+ Volume in drive E is New Volume
+ Volume Serial Number is E02A-03D6
+
+ Directory of E:\pothole_detection
+
+01/13/2022  01:33 PM    <DIR>          .
+01/13/2022  01:33 PM                 0 deleteme.txt
+               1 File(s)              0 bytes
+               1 Dir(s)  160,848,056,320 bytes free
